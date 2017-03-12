@@ -1,8 +1,8 @@
 <?php
 //以下為連接資料庫伺服器
 $dbhost = '128.199.177.228';
-$dbuser = 'root';
-$dbpass = 'e726e801';
+$dbuser = 'test';
+$dbpass = 'testtest';
 $dbname = $_POST["dbName"];
 $Ssn = $_POST["Ssn"];
 $con = mysql_connect($dbhost,$dbuser,$dbpass);
